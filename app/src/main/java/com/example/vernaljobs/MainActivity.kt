@@ -20,5 +20,15 @@ class MainActivity : AppCompatActivity() {
         // Start the new activity.
         startActivity(registerIntent)
     }
+
+    fun GoToFAQ(view: View) {
+
+        // Create an Intent to start the second activity
+        val registerIntent = Intent(this, FAQ::class.java)
+
+        // Start the new activity.
+        startActivity(registerIntent)
+    }
+
 }
 // adfadfdafdadfad
