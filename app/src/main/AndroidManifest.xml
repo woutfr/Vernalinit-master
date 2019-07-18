@@ -11,8 +11,6 @@
             android:theme="@style/AppTheme">
         <activity android:name=".CompanyVacancies">
         </activity>
-        <activity android:name=".Company_vacancies">
-        </activity>
         <activity android:name=".FAQ">
         </activity>
         <activity android:name=".Registercompany">
