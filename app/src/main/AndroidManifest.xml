@@ -9,9 +9,13 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".CompanyVacancies">
+        </activity>
+        <activity android:name=".Company_vacancies">
+        </activity>
         <activity android:name=".FAQ">
         </activity>
-        <activity android:name=".Register_company">
+        <activity android:name=".Registercompany">
         </activity>
         <activity android:name=".Register">
         </activity>

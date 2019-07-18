@@ -15,7 +15,7 @@ class Register : AppCompatActivity() {
     fun registerCompany(view: View) {
 
         // Create an Intent to start the second activity
-        val registerIntent = Intent(this, Register_company::class.java)
+        val registerIntent = Intent(this, Registercompany::class.java)
 
         // Start the new activity.
         startActivity(registerIntent)
