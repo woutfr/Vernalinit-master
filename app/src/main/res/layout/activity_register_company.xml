@@ -21,7 +21,7 @@
             android:inputType="textPersonName"
             android:ems="10"
             android:id="@+id/Company"
-            android:hint="Company name" android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:hint="@string/company_name" android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.502" app:layout_constraintTop_toBottomOf="@+id/textView10"
             android:layout_marginTop="20dp"/>
@@ -30,7 +30,7 @@
             android:layout_height="0dp"
             android:inputType="textPassword"
             android:ems="10"
-            android:id="@+id/password"
+            android:id="@+id/text_input_password"
             android:layout_marginTop="20dp"
             app:layout_constraintTop_toBottomOf="@+id/Company"
             app:layout_constraintStart_toStartOf="@+id/Company" app:layout_constraintEnd_toEndOf="@+id/Company"
@@ -41,16 +41,16 @@
             android:inputType="textPersonName"
             android:ems="10"
             android:id="@+id/BTW"
-            app:layout_constraintEnd_toEndOf="@+id/password"
-            app:layout_constraintStart_toStartOf="@+id/password" android:layout_marginTop="20dp"
-            app:layout_constraintTop_toBottomOf="@+id/password" android:hint="BTW-Number"/>
+            app:layout_constraintEnd_toEndOf="@+id/text_input_password"
+            app:layout_constraintStart_toStartOf="@+id/text_input_password" android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/text_input_password" android:hint="@string/btw_number"/>
     <EditText
             android:id="@+id/email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
             android:ems="10"
-            android:hint="E-mail address"
+            android:hint="@string/e_mail_address"
             app:layout_constraintEnd_toEndOf="@+id/BTW"
             android:layout_marginTop="20dp" app:layout_constraintTop_toBottomOf="@+id/BTW"
             app:layout_constraintStart_toStartOf="@+id/BTW"/>
@@ -63,7 +63,7 @@
         android:id="@+id/phone"
         app:layout_constraintStart_toStartOf="@+id/email" app:layout_constraintEnd_toEndOf="@+id/email"
         android:layout_marginTop="20dp" app:layout_constraintTop_toBottomOf="@+id/email"
-        app:layout_constraintHorizontal_bias="0.0" android:hint="Phone number"/>
+        app:layout_constraintHorizontal_bias="0.0" android:hint="@string/phone_number"/>
     <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -72,7 +72,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/TC_button" app:layout_constraintTop_toTopOf="@+id/TC_button"
             android:layout_marginStart="25dp" app:layout_constraintStart_toEndOf="@+id/TC_button"/>
     <TextView
-            android:text="Fill in:"
+            android:text="@string/fill_in"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:id="@+id/textView10" app:layout_constraintStart_toStartOf="@+id/Company"
@@ -80,7 +80,7 @@
             app:layout_constraintTop_toTopOf="parent" android:textStyle="bold" android:textSize="32sp"
             android:textColor="#07146B"/>
     <Button
-            android:text="Terms \u0026 Conditions"
+            android:text="@string/terms_u0026_conditions"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/TC_button" android:layout_marginTop="20dp"
@@ -89,7 +89,7 @@
             app:layout_constraintHorizontal_bias="0.0" android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.0"/>
     <Button
-            android:text="Submit"
+            android:text="@string/submit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="registerBack"
