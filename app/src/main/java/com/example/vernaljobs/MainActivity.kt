@@ -33,11 +33,10 @@ class MainActivity : AppCompatActivity() {
     fun GoTovacancies(view: View) {
 
         // Create an Intent to start the second activity
-        val registerIntent = Intent(this, CompanyVacancies::class.java)
+        val registerIntent = Intent(this, Navview::class.java)
 
         // Start the new activity.
         startActivity(registerIntent)
     }
 
 }
-// adfadfdafdadfad
