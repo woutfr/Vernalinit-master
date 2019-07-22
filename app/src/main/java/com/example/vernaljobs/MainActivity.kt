@@ -38,5 +38,13 @@ class MainActivity : AppCompatActivity() {
         // Start the new activity.
         startActivity(registerIntent)
     }
+    fun GoToForgotPassword(view: View) {
+
+        // Create an Intent to start the second activity
+        val registerIntent = Intent(this, forgotpassword::class.java)
+
+        // Start the new activity.
+        startActivity(registerIntent)
+    }
 
 }
