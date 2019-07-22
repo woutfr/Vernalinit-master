@@ -16,7 +16,7 @@
             android:layout_marginEnd="8dp"
             android:textSize="30sp" android:fontFamily="sans-serif-condensed-medium"
             android:textStyle="bold" android:textAlignment="center"
-            android:textColor="#FF0842"
+            android:textColor="#E51E37"
             android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"/>
     <Button
             android:text="@string/login"
@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:onClick="GoTovacancies"
             android:id="@+id/Login"
-            android:background="#FF0842"
+            android:background="@color/buttonBackground"
             app:layout_constraintEnd_toEndOf="@+id/Introduction"
             app:layout_constraintStart_toStartOf="@+id/Introduction"
             app:layout_constraintHorizontal_bias="0.496" android:layout_marginTop="8dp"
@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/Register"
             app:layout_constraintTop_toBottomOf="@+id/Login"
-            android:layout_marginTop="20dp" android:background="#FF0842"
+            android:layout_marginTop="20dp" android:background="@color/buttonBackground"
             app:layout_constraintEnd_toEndOf="@+id/Login" app:layout_constraintStart_toStartOf="@+id/Login"
             app:layout_constraintHorizontal_bias="0.0" android:textColor="@android:color/black"/>
     <Button
@@ -51,11 +51,9 @@
             app:layout_constraintVertical_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/Login" android:textColor="@android:color/black"/>
     <ImageView
-            android:layout_width="167dp"
-            android:layout_height="226dp" app:srcCompat="@drawable/logo"
+            android:layout_width="131dp"
+            android:layout_height="170dp" app:srcCompat="@drawable/logonotext"
             android:id="@+id/imageView"
-            app:layout_constraintStart_toStartOf="@+id/Introduction"
-            app:layout_constraintEnd_toEndOf="@+id/Introduction"
-            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/Introduction"
-            app:layout_constraintHorizontal_bias="1.0"/>
+            app:layout_constraintTop_toBottomOf="@+id/Introduction"
+            app:layout_constraintStart_toStartOf="@+id/Login"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
