@@ -14,13 +14,13 @@ import kotlinx.android.synthetic.main.activity_main.view.*
 class MainActivity : AppCompatActivity() {
 
 
-    lateinit var ButtonHoverMe: Button
+//    lateinit var ButtonHoverMe: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
 
-        ButtonHoverMe = findViewById(R.id.login_button)
+//        ButtonHoverMe = findViewById(R.id.login_button)
     }
 
     fun registerMe(view: View) {
@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         startActivity(registerIntent)
     }
 
-    fun GoToFAQ(view: View) {
+    fun goToFAQ(view: View) {
 
         // Create an Intent to start the second activity
         val registerIntent = Intent(this, FAQ::class.java)
@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
         startActivity(registerIntent)
     }
 
-    fun GoTovacancies(view: View) {
+    fun goTovacancies(view: View) {
 
         // Create an Intent to start the second activity
         val registerIntent = Intent(this, Navview::class.java)
@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
         // Start the new activity.
         startActivity(registerIntent)
     }
-    fun GoToForgotPassword(view: View) {
+    fun goToForgotPassword(view: View) {
 
         // Create an Intent to start the second activity
         val registerIntent = Intent(this, forgotpassword::class.java)

@@ -91,7 +91,7 @@
                     android:layout_marginEnd="20dp"
                     android:layout_marginTop="20dp"
             android:layout_height="wrap_content"
-                    android:id="@+id/FAQ_BackButton"
+                    android:id="@+id/FAQ_button"
                     android:background="@drawable/hoverbutton"
                     android:layout_gravity="end"
             android:layout_marginBottom="20dp"/>

@@ -50,4 +50,10 @@
     <string name="go_back_faq">Go Back</string>
     <string name="intro_faq">Welcome to the FAQ</string>
     <string name="Question_intro_faq">I have a question wherefor I did not find the solution</string>
+    <string name="registercompany_introtext">Complete your details</string>
+    <string name="register_company_TC_text">
+        <![CDATA[Check the box if you agree with the Terms & Conditions and the Privacy Policy]]></string>
+    <string name="logo_with_text_company">Logo with text</string>
+    <string name="login_button">Log In</string>
+    <string name="Sign_up_button">Sign Up</string>
 </resources>
