@@ -42,4 +42,12 @@
     <string name="username">Username</string>
     <string name="login_password">Password</string>
     <string name="forgot_password">Forgot Password?</string>
+    <string name="welcome_to_faq">
+        Welcome to the Frequently Asked Question page. Here you can find the more information about what Vernal stands
+        for and find solutions to issues or questions you may have.
+    </string>
+    <string name="please_contact_vernaljobs_outlook_be">Please contact VernalJobs@outlook.be</string>
+    <string name="go_back_faq">Go Back</string>
+    <string name="intro_faq">Welcome to the FAQ</string>
+    <string name="Question_intro_faq">I have a question wherefor I did not find the solution</string>
 </resources>

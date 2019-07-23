@@ -9,6 +9,7 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+            <!--android:fullBackupContent="@xml/my_backup_rules"-->
         <activity android:name=".forgotpassword">
         </activity>
         <activity
@@ -16,17 +17,17 @@
                 android:label="@string/title_activity_navview"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
-        <activity android:name=".AccountSettingsCompany">
-        </activity>
         <activity android:name=".WorkersVacancies">
         </activity>
         <activity
                 android:name=".CompanyVacancies"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
-        <activity android:name=".FAQ">
+        <activity android:name=".FAQ"
+                  android:windowSoftInputMode="adjustResize">
         </activity>
-        <activity android:name=".Registercompany">
+        <activity android:name=".Registercompany"
+                  android:windowSoftInputMode="adjustResize">
         </activity>
         <activity android:name=".Register">
         </activity>
@@ -35,7 +36,7 @@
                 android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-
+                <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>

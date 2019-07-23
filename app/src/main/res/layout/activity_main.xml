@@ -20,17 +20,19 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/Introduction"
-                    android:layout_marginTop="40dp"
-                    app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginTop="30dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
                     android:layout_marginEnd="8dp"
                     android:textSize="30sp" android:fontFamily="sans-serif-condensed-medium"
                     android:textStyle="bold" android:textAlignment="center"
                     android:textColor="#E51E37"
-                    android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"/>
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent"/>
 
             <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp" app:srcCompat="@drawable/logowithouttext"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp" app:srcCompat="@drawable/logowithouttext"
                     android:id="@+id/Login_logo" android:layout_marginTop="8dp"
                     app:layout_constraintTop_toBottomOf="@+id/Introduction"
                     android:layout_gravity="center_horizontal"
@@ -43,7 +45,7 @@
                     android:background="@drawable/textviewbackground"
                     android:layout_marginStart="20dp"
                     android:layout_marginEnd="20dp"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="10dp"
                     android:drawableStart="@drawable/ic_username"
                     android:drawablePadding="10dp"
                     android:id="@+id/Username"
@@ -58,7 +60,7 @@
                     android:inputType="textPassword"
                     android:layout_marginStart="20dp"
                     android:layout_marginEnd="20dp"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="10dp"
                     android:drawableStart="@drawable/ic_password"
                     android:background="@drawable/textviewbackground"
                     android:drawablePadding="10dp"
@@ -72,19 +74,20 @@
                     android:onClick="GoToForgotPassword"
                     android:text="@string/forgot_password"
                     android:padding="10dp"
-                    android:layout_gravity="end"/>
+                    android:layout_gravity="end" android:textColor="@color/design_default_color_primary_dark"/>
             <Button
                     android:text="Log In"
                     android:onClick="GoTovacancies"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="24dp"
                     android:layout_marginStart="20dp"
                     android:layout_marginEnd="20dp"
                     android:textAllCaps="false"
                     android:id="@+id/login_button"
                     android:background="@drawable/buttonbackground"
                     android:textColor="@android:color/white"
-                    android:layout_marginTop="20dp"/>
+                    android:layout_marginTop="10dp"/>
             <Button
                     android:text="Sign Up"
                     android:onClick="registerMe"
@@ -99,7 +102,7 @@
                     android:layout_marginTop="20dp"
                     app:layout_constraintTop_toBottomOf="@+id/Password"
                     app:layout_constraintStart_toStartOf="@+id/Password"
-                    app:layout_constraintEnd_toEndOf="@+id/Password"/>
+                    app:layout_constraintEnd_toEndOf="@+id/Password" android:textSize="24dp"/>
             <Button
                     android:text="@string/faq"
                     android:layout_width="match_parent"
@@ -115,7 +118,7 @@
                     app:layout_constraintVertical_bias="0.0"
                     android:textColor="@android:color/white"
                     app:layout_constraintStart_toStartOf="@+id/Register"
-                    app:layout_constraintEnd_toEndOf="@+id/Register"/>
+                    app:layout_constraintEnd_toEndOf="@+id/Register" android:textSize="24dp"/>
 
         </LinearLayout>
     </ScrollView>
