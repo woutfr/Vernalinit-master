@@ -90,7 +90,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="registerBack"
-                    android:background="@drawable/buttonbackground"
+                    android:background="@drawable/hoverbutton"
                     android:id="@+id/Submit_register_company"
                     android:layout_marginBottom="8dp"
                     app:layout_constraintBottom_toBottomOf="parent"
